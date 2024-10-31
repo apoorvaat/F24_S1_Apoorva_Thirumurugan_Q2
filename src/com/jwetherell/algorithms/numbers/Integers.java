@@ -4,6 +4,9 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
+/*defining values such as 100, 1000, etc., as constants at the
+beginning of the class */
+
 public class Integers {
 
     private static final BigDecimal ZERO = new BigDecimal(0);
@@ -136,6 +139,11 @@ public class Integers {
         multiDigits.put(80,"eighty");
         multiDigits.put(90,"ninety");
     }
+
+/*Modify this class by defining values such as 100, 1000, etc., as constants at the
+beginning of the class instead of using them directly for better readability. Additionally,
+update all instances of these values throughout the class to use the newly defined
+constants */
 
     private static final int BILLION = 1000000000;
     private static final int MILLION = 1000000;
